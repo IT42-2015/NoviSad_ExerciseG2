@@ -22,3 +22,7 @@ RefactoringAction 1497002516463 PlanetExplorer.java ADD int vehicle FIELD
 RefactoringAction 1497002517972 PlanetExplorer.java RENAME vehicle=>int vehicleY FIELD
 EditAction 1497002546858 TestPlanetExplorer.java 257 1 2 1
 EditAction 1497002556271 PlanetExplorer.java 1380 2 1 0
+RefactoringAction 1497002799065 PlanetExplorer.java ADD void rotate FIELD
+RefactoringAction 1497002820156 PlanetExplorer.java RENAME rotate=>void rotate() METHOD
+RefactoringAction 1497002829206 PlanetExplorer.java RENAME rotate()=>void rotate(char) METHOD
+EditAction 1497002923550 PlanetExplorer.java 1763 3 8 0

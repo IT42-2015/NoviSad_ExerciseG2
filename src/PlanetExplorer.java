@@ -13,6 +13,11 @@ public class PlanetExplorer {
 	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
+		this.x = x;
+		this.y = y;
+		this.obstacle = obstacle;
+		this.direction = "n";
+			
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -23,6 +28,15 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
+		char[] niz = command.toCharArray();
+		
+		
+		for(char i: niz){
+			switch(i){
+				case 'r': rotate(i); break;
+			}
+		}
+				
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -34,6 +48,18 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		return "(" + vehicleX + "," + vehicleY + "," + direction + ")";
 	}
+	
+	public void rotate(char i){
+		switch(i){
+			case 'r':
+				if(direction == "n"){
+					direction = "e";
+				}
+		}
+	}
+	
+	
+	
 }
