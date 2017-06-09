@@ -21,3 +21,4 @@ RefactoringAction 1497002510924 PlanetExplorer.java RENAME vehicle=>int vehicleX
 RefactoringAction 1497002516463 PlanetExplorer.java ADD int vehicle FIELD
 RefactoringAction 1497002517972 PlanetExplorer.java RENAME vehicle=>int vehicleY FIELD
 EditAction 1497002546858 TestPlanetExplorer.java 257 1 2 1
+EditAction 1497002556271 PlanetExplorer.java 1380 2 1 0
