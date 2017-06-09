@@ -37,3 +37,6 @@ RefactoringAction 1497002957872 TestPlanetExplorer.java RENAME test_rotate_right
 RefactoringAction 1497002959882 TestPlanetExplorer.java RENAME test_rotate_right_otwo_()=>void test_rotate_right_two_() METHOD
 RefactoringAction 1497002962894 TestPlanetExplorer.java RENAME test_rotate_right_two_()=>void test_rotate_right_two_times() METHOD
 EditAction 1497002981342 TestPlanetExplorer.java 467 2 5 2
+UnitTestCaseAction 1497002989876 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002989878 TestPlanetExplorer.java FAIL
+EditAction 1497003018815 PlanetExplorer.java 1819 3 8 0

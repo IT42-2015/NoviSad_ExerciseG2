@@ -56,6 +56,8 @@ public class PlanetExplorer {
 			case 'r':
 				if(direction == "n"){
 					direction = "e";
+				} else if (direction == "e"){
+					direction = "s";
 				}
 		}
 	}
