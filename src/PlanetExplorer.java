@@ -73,7 +73,10 @@ public class PlanetExplorer {
 					direction = "s";
 				} else if (direction == "s"){
 					direction = "e";
+				} else {
+					direction = "n";
 				}
+			break;
 		}
 	}
 	
