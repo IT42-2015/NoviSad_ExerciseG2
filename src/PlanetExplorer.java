@@ -63,6 +63,12 @@ public class PlanetExplorer {
 				} else {
 					direction = "n";
 				}
+			break;
+			
+			case 'l':
+				if(direction == "n"){
+					direction = "w";
+				}
 		}
 	}
 	
