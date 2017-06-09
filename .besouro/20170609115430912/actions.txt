@@ -26,3 +26,14 @@ RefactoringAction 1497002799065 PlanetExplorer.java ADD void rotate FIELD
 RefactoringAction 1497002820156 PlanetExplorer.java RENAME rotate=>void rotate() METHOD
 RefactoringAction 1497002829206 PlanetExplorer.java RENAME rotate()=>void rotate(char) METHOD
 EditAction 1497002923550 PlanetExplorer.java 1763 3 8 0
+UnitTestCaseAction 1497002932114 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497002932115 TestPlanetExplorer.java OK
+RefactoringAction 1497002938258 TestPlanetExplorer.java ADD void test_rotate_right()/2 METHOD
+RefactoringAction 1497002944274 TestPlanetExplorer.java RENAME test_rotate_right()/2=>void test_rotate_right_() METHOD
+RefactoringAction 1497002947787 TestPlanetExplorer.java RENAME test_rotate_right_()=>void test_rotate_right_one_() METHOD
+RefactoringAction 1497002950805 TestPlanetExplorer.java RENAME test_rotate_right()=>void test_rotate_right FIELD
+RefactoringAction 1497002953860 TestPlanetExplorer.java RENAME test_rotate_right_one_()/2=>void test_rotate_right_one_time() METHOD
+RefactoringAction 1497002957872 TestPlanetExplorer.java RENAME test_rotate_right_one_()=>void test_rotate_right_otwo_() METHOD
+RefactoringAction 1497002959882 TestPlanetExplorer.java RENAME test_rotate_right_otwo_()=>void test_rotate_right_two_() METHOD
+RefactoringAction 1497002962894 TestPlanetExplorer.java RENAME test_rotate_right_two_()=>void test_rotate_right_two_times() METHOD
+EditAction 1497002981342 TestPlanetExplorer.java 467 2 5 2
