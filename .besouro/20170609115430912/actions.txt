@@ -197,3 +197,8 @@ RefactoringAction 1497005243725 TestPlanetExplorer.java ADD void test FIELD
 RefactoringAction 1497005246237 TestPlanetExplorer.java RENAME test=>void test_exception FIELD
 RefactoringAction 1497005247749 TestPlanetExplorer.java RENAME test_exception=>void test_exception() METHOD
 EditAction 1497005283738 TestPlanetExplorer.java 3714 17 62 16
+UnitTestCaseAction 1497005301061 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005301063 TestPlanetExplorer.java FAIL
+RefactoringAction 1497005320562 PlanetExplorerException.java ADD String exception FIELD
+RefactoringAction 1497005321570 PlanetExplorerException.java RENAME exception=>String exception() METHOD
+EditAction 1497005393792 PlanetExplorer.java 3376 7 12 0

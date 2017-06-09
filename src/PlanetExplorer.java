@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	 */
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		char[] niz = command.toCharArray();
 		
 		
@@ -37,6 +37,7 @@ public class PlanetExplorer {
 				case 'l': rotate(i); break;
 				case 'f': moveForward();break;
 				case 'b': moveBack();break;
+				default: throw new PlanetExplorerException();
 			}
 		}
 				
