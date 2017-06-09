@@ -97,3 +97,13 @@ EditAction 1497003608608 TestPlanetExplorer.java 1796 8 28 8
 UnitTestCaseAction 1497003622773 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497003622776 TestPlanetExplorer.java FAIL
 EditAction 1497003659772 PlanetExplorer.java 2179 3 8 0
+UnitTestCaseAction 1497003673970 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003673974 TestPlanetExplorer.java OK
+RefactoringAction 1497003692044 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497003718582 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1497003733603 TestPlanetExplorer.java RENAME test_=>void test_for FIELD
+RefactoringAction 1497003735114 TestPlanetExplorer.java RENAME test_for=>void test_forward FIELD
+RefactoringAction 1497003736126 TestPlanetExplorer.java RENAME test_forward=>void test_forward() METHOD
+RefactoringAction 1497003741143 TestPlanetExplorer.java RENAME test_forward()=>void test_forward_() METHOD
+RefactoringAction 1497003742652 TestPlanetExplorer.java RENAME test_forward_()=>void test_forward_north() METHOD
+EditAction 1497003783058 TestPlanetExplorer.java 1964 9 30 9
