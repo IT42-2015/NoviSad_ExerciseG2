@@ -202,3 +202,5 @@ UnitTestSessionAction 1497005301063 TestPlanetExplorer.java FAIL
 RefactoringAction 1497005320562 PlanetExplorerException.java ADD String exception FIELD
 RefactoringAction 1497005321570 PlanetExplorerException.java RENAME exception=>String exception() METHOD
 EditAction 1497005393792 PlanetExplorer.java 3376 7 12 0
+CompilationAction 1497005401183 TestPlanetExplorer.java
+EditAction 1497005401376 PlanetExplorerException.java 112 1 1 0
