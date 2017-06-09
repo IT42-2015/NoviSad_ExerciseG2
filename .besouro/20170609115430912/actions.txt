@@ -144,3 +144,8 @@ RefactoringAction 1497004332834 PlanetExplorer.java ADD void setVehicleY(int) ME
 RefactoringAction 1497004337849 PlanetExplorer.java REMOVE setVehicleX(int) METHOD
 RefactoringAction 1497004340358 PlanetExplorer.java ADD void setVehicleX(int) METHOD
 EditAction 1497004444396 PlanetExplorer.java 2727 6 11 0
+UnitTestCaseAction 1497004453181 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004453184 TestPlanetExplorer.java OK
+RefactoringAction 1497004460590 TestPlanetExplorer.java ADD void test_forward_south()/2 METHOD
+RefactoringAction 1497004466102 TestPlanetExplorer.java RENAME test_forward_south()/2=>void test_forward_west() METHOD
+EditAction 1497004497435 TestPlanetExplorer.java 2662 12 44 12
