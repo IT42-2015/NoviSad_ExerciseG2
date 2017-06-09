@@ -161,3 +161,11 @@ UnitTestCaseAction 1497004643516 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004643517 TestPlanetExplorer.java FAIL
 RefactoringAction 1497004663499 PlanetExplorer.java ADD void moveBack() METHOD
 EditAction 1497004737093 PlanetExplorer.java 2980 7 12 0
+UnitTestCaseAction 1497004745568 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004745570 TestPlanetExplorer.java OK
+RefactoringAction 1497004760497 TestPlanetExplorer.java ADD void test_forward_west()/2 METHOD
+RefactoringAction 1497004764507 TestPlanetExplorer.java RENAME test_forward_west()/2=>void test_backt_west() METHOD
+RefactoringAction 1497004765517 TestPlanetExplorer.java RENAME test_backt_west()=>void test_bac_west() METHOD
+RefactoringAction 1497004766532 TestPlanetExplorer.java RENAME test_bac_west()=>void test_back_west() METHOD
+RefactoringAction 1497004774551 TestPlanetExplorer.java RENAME test_back_west()=>void test_back_east() METHOD
+EditAction 1497004806010 TestPlanetExplorer.java 3056 14 51 14
