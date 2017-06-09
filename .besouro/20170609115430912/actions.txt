@@ -87,3 +87,10 @@ EditAction 1497003543436 TestPlanetExplorer.java 1543 7 23 7
 UnitTestCaseAction 1497003551969 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497003551971 TestPlanetExplorer.java FAIL
 EditAction 1497003572420 PlanetExplorer.java 2134 3 8 0
+UnitTestCaseAction 1497003580872 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003580874 TestPlanetExplorer.java OK
+RefactoringAction 1497003591333 TestPlanetExplorer.java ADD void test_rotate_right_four_times()/2 METHOD
+RefactoringAction 1497003593345 TestPlanetExplorer.java RENAME test_rotate_right_four_times()/2=>void test_rotate_righ_four_times() METHOD
+RefactoringAction 1497003595355 TestPlanetExplorer.java RENAME test_rotate_righ_four_times()=>void test_rotate_let_four_times() METHOD
+RefactoringAction 1497003597876 TestPlanetExplorer.java RENAME test_rotate_let_four_times()=>void test_rotate_left_four_times() METHOD
+EditAction 1497003608608 TestPlanetExplorer.java 1796 8 28 8
