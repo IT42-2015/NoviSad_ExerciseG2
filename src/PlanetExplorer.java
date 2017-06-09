@@ -81,6 +81,13 @@ public class PlanetExplorer {
 			} else {
 				vehicleY--;
 			}
+		} else {
+			if(vehicleX == 0){
+				vehicleX = x;
+			} else {
+				vehicleX--;
+			}
+				
 		}
 	}
 	
