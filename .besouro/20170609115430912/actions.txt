@@ -8,3 +8,16 @@ RefactoringAction 1497002277378 TestPlanetExplorer.java RENAME test_ro()=>void t
 RefactoringAction 1497002278402 TestPlanetExplorer.java RENAME test_rotate()=>void test_rotate_() METHOD
 RefactoringAction 1497002279911 TestPlanetExplorer.java RENAME test_rotate_()=>void test_rotate_right() METHOD
 EditAction 1497002434179 TestPlanetExplorer.java 257 1 2 1
+UnitTestCaseAction 1497002442969 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002442973 TestPlanetExplorer.java FAIL
+RefactoringAction 1497002461696 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1497002465231 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1497002475273 PlanetExplorer.java ADD String obstacle FIELD
+RefactoringAction 1497002487819 PlanetExplorer.java ADD String direction FIELD
+RefactoringAction 1497002488829 PlanetExplorer.java RENAME direction=>String directionl FIELD
+RefactoringAction 1497002489845 PlanetExplorer.java RENAME directionl=>String direction FIELD
+RefactoringAction 1497002509911 PlanetExplorer.java ADD int vehicle FIELD
+RefactoringAction 1497002510924 PlanetExplorer.java RENAME vehicle=>int vehicleX FIELD
+RefactoringAction 1497002516463 PlanetExplorer.java ADD int vehicle FIELD
+RefactoringAction 1497002517972 PlanetExplorer.java RENAME vehicle=>int vehicleY FIELD
+EditAction 1497002546858 TestPlanetExplorer.java 257 1 2 1
