@@ -132,4 +132,14 @@ public class TestPlanetExplorer {
 		assertEquals("Greska", "(0,0,e)", pe.executeCommand("b"));		
 	}
 	
+	@Test
+	public void test_back_south(){
+		PlanetExplorer pe = new PlanetExplorer(3,3,null);
+		
+		pe.executeCommand("r");
+		pe.executeCommand("r");
+		
+		assertEquals("Greska", "(0,1,s)", pe.executeCommand("b"));		
+	}
+	
 }
