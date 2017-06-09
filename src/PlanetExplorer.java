@@ -104,6 +104,12 @@ public class PlanetExplorer {
 			} else {
 				vehicleX--;
 			}
+		} else if (direction == "s"){
+			if(vehicleY == y){
+				vehicleY = 0;
+			} else {
+				vehicleY++;
+			}
 		}
 		
 	}
