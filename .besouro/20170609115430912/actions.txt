@@ -110,3 +110,8 @@ EditAction 1497003783058 TestPlanetExplorer.java 1964 9 30 9
 UnitTestCaseAction 1497003797504 TestPlanetExplorer.java OK
 UnitTestSessionAction 1497003797506 TestPlanetExplorer.java OK
 EditAction 1497003832604 TestPlanetExplorer.java 1963 9 30 9
+UnitTestCaseAction 1497003841396 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003841398 TestPlanetExplorer.java FAIL
+RefactoringAction 1497003887517 PlanetExplorer.java ADD String moveForward FIELD
+RefactoringAction 1497003892531 PlanetExplorer.java RENAME moveForward=>String moveForward() METHOD
+EditAction 1497004032809 PlanetExplorer.java 2352 4 9 0

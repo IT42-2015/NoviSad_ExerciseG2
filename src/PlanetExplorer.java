@@ -35,6 +35,7 @@ public class PlanetExplorer {
 			switch(i){
 				case 'r': rotate(i); break;
 				case 'l': rotate(i); break;
+				case 'f': moveForward();break;
 			}
 		}
 				
@@ -51,6 +52,18 @@ public class PlanetExplorer {
 		
 		return "(" + vehicleX + "," + vehicleY + "," + direction + ")";
 	}
+	
+	public void moveForward(){
+		if(direction == "n"){
+			if(vehicleY == y){
+				vehicleY = 0;
+			} else {
+				vehicleY++;
+			}
+		}
+	}
+	
+	
 	
 	public void rotate(char i){
 		switch(i){
