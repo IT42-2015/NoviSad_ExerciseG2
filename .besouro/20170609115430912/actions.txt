@@ -115,3 +115,9 @@ UnitTestSessionAction 1497003841398 TestPlanetExplorer.java FAIL
 RefactoringAction 1497003887517 PlanetExplorer.java ADD String moveForward FIELD
 RefactoringAction 1497003892531 PlanetExplorer.java RENAME moveForward=>String moveForward() METHOD
 EditAction 1497004032809 PlanetExplorer.java 2352 4 9 0
+UnitTestCaseAction 1497004041297 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004041299 TestPlanetExplorer.java OK
+RefactoringAction 1497004047476 TestPlanetExplorer.java ADD void test_forward_north()/2 METHOD
+RefactoringAction 1497004051491 TestPlanetExplorer.java RENAME test_forward_north()/2=>void test_forward_ea() METHOD
+RefactoringAction 1497004052530 TestPlanetExplorer.java RENAME test_forward_ea()=>void test_forward_east() METHOD
+EditAction 1497004083314 TestPlanetExplorer.java 2153 10 33 10
