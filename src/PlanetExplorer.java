@@ -34,6 +34,7 @@ public class PlanetExplorer {
 		for(char i: niz){
 			switch(i){
 				case 'r': rotate(i); break;
+				case 'l': rotate(i); break;
 			}
 		}
 				
