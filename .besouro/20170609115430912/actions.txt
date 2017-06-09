@@ -107,3 +107,6 @@ RefactoringAction 1497003736126 TestPlanetExplorer.java RENAME test_forward=>voi
 RefactoringAction 1497003741143 TestPlanetExplorer.java RENAME test_forward()=>void test_forward_() METHOD
 RefactoringAction 1497003742652 TestPlanetExplorer.java RENAME test_forward_()=>void test_forward_north() METHOD
 EditAction 1497003783058 TestPlanetExplorer.java 1964 9 30 9
+UnitTestCaseAction 1497003797504 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003797506 TestPlanetExplorer.java OK
+EditAction 1497003832604 TestPlanetExplorer.java 1963 9 30 9

@@ -79,8 +79,7 @@ public class TestPlanetExplorer {
 	public void test_forward_north(){
 		PlanetExplorer pe = new PlanetExplorer(3,3,null);
 		
-		assertEquals("Greska", "(0,0,n)", pe.executeCommand("f"));
-		
+		assertEquals("Greska", "(0,1,n)", pe.executeCommand("f"));		
 	}
 	
 }
