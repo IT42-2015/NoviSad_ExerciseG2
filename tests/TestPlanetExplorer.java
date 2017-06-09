@@ -129,7 +129,7 @@ public class TestPlanetExplorer {
 		pe.executeCommand("r");
 		
 		pe.setVehicleX(1);
-		assertEquals("Greska", "(0,0,e)", pe.executeCommand("f"));		
+		assertEquals("Greska", "(0,0,e)", pe.executeCommand("b"));		
 	}
 	
 }
