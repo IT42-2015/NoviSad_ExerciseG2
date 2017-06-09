@@ -45,3 +45,6 @@ UnitTestSessionAction 1497003029614 TestPlanetExplorer.java OK
 RefactoringAction 1497003035510 TestPlanetExplorer.java ADD void test_rotate_right_two_times()/2 METHOD
 RefactoringAction 1497003039032 TestPlanetExplorer.java RENAME test_rotate_right_two_times()/2=>void test_rotate_right_three_times() METHOD
 EditAction 1497003048348 TestPlanetExplorer.java 694 3 9 3
+UnitTestCaseAction 1497003059756 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497003059758 TestPlanetExplorer.java OK
+EditAction 1497003109595 TestPlanetExplorer.java 694 3 9 3

@@ -26,6 +26,6 @@ public class TestPlanetExplorer {
 		
 		pe.executeCommand("r");
 		pe.executeCommand("r");
-		assertEquals("Greska", "(0,0,s)", pe.executeCommand("r"));
+		assertEquals("Greska", "(0,0,w)", pe.executeCommand("r"));
 	}
 }
