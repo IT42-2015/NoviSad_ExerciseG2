@@ -110,6 +110,12 @@ public class PlanetExplorer {
 			} else {
 				vehicleY++;
 			}
+		} else if (direction == "w"){
+			if(vehicleX == x){
+				vehicleX = 0;
+			} else {
+				vehicleX++;
+			}
 		}
 		
 	}
