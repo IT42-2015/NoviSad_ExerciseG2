@@ -130,3 +130,17 @@ UnitTestSessionAction 1497004185373 TestPlanetExplorer.java OK
 RefactoringAction 1497004192212 TestPlanetExplorer.java ADD void test_forward_east()/2 METHOD
 RefactoringAction 1497004195724 TestPlanetExplorer.java RENAME test_forward_east()/2=>void test_forward_south() METHOD
 EditAction 1497004271018 TestPlanetExplorer.java 2396 11 38 11
+CompilationAction 1497004278805 TestPlanetExplorer.java
+UnitTestCaseAction 1497004281265 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004281269 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004301263 PlanetExplorer.java ADD int getVehicleX() METHOD
+RefactoringAction 1497004301264 PlanetExplorer.java ADD void setVehicleX(int) METHOD
+RefactoringAction 1497004301266 PlanetExplorer.java ADD int getVehicleY() METHOD
+RefactoringAction 1497004301268 PlanetExplorer.java ADD void setVehicleY(int) METHOD
+RefactoringAction 1497004308286 PlanetExplorer.java REMOVE getVehicleX() METHOD
+RefactoringAction 1497004311300 PlanetExplorer.java REMOVE getVehicleY() METHOD
+RefactoringAction 1497004329323 PlanetExplorer.java REMOVE setVehicleY(int) METHOD
+RefactoringAction 1497004332834 PlanetExplorer.java ADD void setVehicleY(int) METHOD
+RefactoringAction 1497004337849 PlanetExplorer.java REMOVE setVehicleX(int) METHOD
+RefactoringAction 1497004340358 PlanetExplorer.java ADD void setVehicleX(int) METHOD
+EditAction 1497004444396 PlanetExplorer.java 2727 6 11 0

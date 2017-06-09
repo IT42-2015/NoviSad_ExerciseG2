@@ -53,6 +53,14 @@ public class PlanetExplorer {
 		return "(" + vehicleX + "," + vehicleY + "," + direction + ")";
 	}
 	
+	
+
+	
+
+	
+
+	
+
 	public void moveForward(){
 		if(direction == "n"){
 			if(vehicleY == y){
@@ -67,6 +75,12 @@ public class PlanetExplorer {
 				vehicleX++;
 			}
 		
+		} else if (direction == "s"){
+			if(vehicleY == 0){
+				vehicleY = y;
+			} else {
+				vehicleY--;
+			}
 		}
 	}
 	
@@ -98,6 +112,15 @@ public class PlanetExplorer {
 				}
 			break;
 		}
+	}
+	
+	
+	public void setVehicleY(int vehicleY) {
+		this.vehicleY = vehicleY;
+	}
+	
+	public void setVehicleX(int vehicleX) {
+		this.vehicleX = vehicleX;
 	}
 	
 	
