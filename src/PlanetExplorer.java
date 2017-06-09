@@ -58,6 +58,8 @@ public class PlanetExplorer {
 					direction = "e";
 				} else if (direction == "e"){
 					direction = "s";
+				} else if (direction == "s"){
+					direction = "w";
 				}
 		}
 	}
