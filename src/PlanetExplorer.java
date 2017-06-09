@@ -36,6 +36,7 @@ public class PlanetExplorer {
 				case 'r': rotate(i); break;
 				case 'l': rotate(i); break;
 				case 'f': moveForward();break;
+				case 'b': moveBack();break;
 			}
 		}
 				
@@ -86,9 +87,19 @@ public class PlanetExplorer {
 				vehicleX = x;
 			} else {
 				vehicleX--;
-			}
-				
+			}			
 		}
+	}
+	
+	public void moveBack(){
+		if(direction == "n"){
+			if(vehicleY == 0){
+				vehicleY = y;
+			} else {
+				vehicleY--;
+			}
+		}
+		
 	}
 	
 	
