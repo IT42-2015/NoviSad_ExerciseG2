@@ -28,4 +28,14 @@ public class TestPlanetExplorer {
 		pe.executeCommand("r");
 		assertEquals("Greska", "(0,0,w)", pe.executeCommand("r"));
 	}
+	
+	@Test
+	public void test_rotate_right_four_times() {
+		PlanetExplorer pe = new PlanetExplorer(3,3,null);
+		
+		pe.executeCommand("r");
+		pe.executeCommand("r");
+		pe.executeCommand("r");
+		assertEquals("Greska", "(0,0,n)", pe.executeCommand("r"));
+	}
 }
