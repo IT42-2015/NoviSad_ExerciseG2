@@ -125,3 +125,8 @@ UnitTestCaseAction 1497004091890 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004091893 TestPlanetExplorer.java FAIL
 EditAction 1497004169437 TestPlanetExplorer.java 2153 10 33 10
 EditAction 1497004177376 PlanetExplorer.java 2460 4 9 0
+UnitTestCaseAction 1497004185371 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004185373 TestPlanetExplorer.java OK
+RefactoringAction 1497004192212 TestPlanetExplorer.java ADD void test_forward_east()/2 METHOD
+RefactoringAction 1497004195724 TestPlanetExplorer.java RENAME test_forward_east()/2=>void test_forward_south() METHOD
+EditAction 1497004271018 TestPlanetExplorer.java 2396 11 38 11
